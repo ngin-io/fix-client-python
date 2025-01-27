@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fix-client-python"
+version = "0.1.0"
+description = ""
+authors = ["ngin-io <dev@ngin.io>"]
+readme = "README.md"
+packages = [{include = "fix_client"}]
+
+[tool.poetry.dependencies]
+python = ">3.10,<4"
+quickfix-ssl = "^1.15.1.post4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fix-client = "fix_client.__main__:main"
