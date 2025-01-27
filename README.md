@@ -8,6 +8,7 @@ The following dependencies are required:
 
 - `openssl` development headers
 - `poetry` (recommended for package management)
+- `x86 processor` (ARM is currently not supported)
 
 For Ubuntu users:
 
@@ -72,7 +73,8 @@ The application implements a `FixClientSampleApplication` class that handles:
 
 The sample demonstrates proper connection handling, order lifecycle management, and error scenarios when interacting with the BTC Markets FIX engine.
 
-```
+## Note:
 
 ```
 
+```
