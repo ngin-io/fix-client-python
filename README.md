@@ -72,9 +72,3 @@ The application implements a `FixClientSampleApplication` class that handles:
 - Error handling
 
 The sample demonstrates proper connection handling, order lifecycle management, and error scenarios when interacting with the BTC Markets FIX engine.
-
-## Note:
-
-```
-
-```
